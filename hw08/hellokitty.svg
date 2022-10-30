@@ -46,19 +46,27 @@
 
   <ellipse fill="#77DD47" stroke="#246614" stroke-width="5" cx="256" cy="270" rx="200" ry="150" opacity="0.2"/>
 
-  <path d="M456 256 A200 140, 0, 0, 0, 56 256" stroke-width="10" stroke="#F00" fill="none" opacity="0.3"/>
 
-  <circle id="c1" cx="456" cy="256" r="1" stroke="red" fill="none">
-    <animate attributeName="r" to="10" dur="2s" repeatCount="indefinite"/>
+  <path d="M448 256 A200 100, 0, 0, 0, 442 235,
+                     390 125, -30 0 0 440 160,
+                     70 160 20, 0, 0, 350 125,
+                     100 400 0 0 0 270 120,
+                     180 100 0 0 0 180 128,
+                     500 118, 50 0 0 80 200,
+                     195 150 5 1 0 448 260 z"  
+ stroke-width="6" stroke="#EA0000" fill="none" opacity="0.3"/>
+
+
+  <circle cx="0" cy="0" r="6" stroke="blue" fill="none">
+    <animateMotion dur="6s" path="M448 256 A200 100, 0, 0, 0, 442 235,
+                     390 125, -30 0 0 440 160,
+                     70 160 20, 0, 0, 350 125,
+                     100 400 0 0 0 270 120,
+                     180 100 0 0 0 180 128,
+                     500 118, 50 0 0 80 200,
+                     195 150 5 1 0 448 260 z"   repeatCount="indefinite" rotate="auto"/>
+    <animate attributeName="r" dur="6s" repeatCount="indefinite"/>
   </circle>
 
-  <circle id="c2" cx="56" cy="256" r="1" stroke="red" fill="none">
-    <animate attributeName="r" to="10" dur="2s" repeatCount="indefinite"/>
-  </circle>
-
-  <circle cx="0" cy="0" r="1" stroke="blue" fill="none">
-    <animateMotion dur="6s" path="M456 256 A200 140, 0, 0, 0, 56 256" repeatCount="indefinite" rotate="auto"/>
-    <animate attributeName="r" to="15" dur="6s" repeatCount="indefinite"/>
-  </circle>
 </svg>
     
